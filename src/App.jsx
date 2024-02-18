@@ -30,11 +30,11 @@ const App = () => {
     <>
       <input type="text" name="text" id="text" value={text} onChange={handleChange} />
       <br/> 
-      <a href="/audio">
+      <a href="./audio">
         Audio
       </a> 
       <br/>
-       <a href="/translate">
+       <a href="./translate">
         Translate
       </a>
       <BrowserRouter>
