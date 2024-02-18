@@ -1,0 +1,7 @@
+body{
+  margin: auto;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
