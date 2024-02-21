@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { TranslateNow } from './translate';
 import { AudioFile } from './AudioFile';
 import { Captions } from './Captions';
+import TranscriptionForm from './TranscriptionForm';
 
 
 const Fun = () => {
@@ -43,6 +44,7 @@ const App = () => {
           <Route path='/captions' element={<Captions />} />
           <Route path='/audio' element={<AudioFile text={text} />} />
           <Route path='/translate' element={<TranslateNow text={text} />} />
+          <Route path='/transcribe' element={<TranscriptionForm />} />
         </Routes>
       </BrowserRouter>
     </>
